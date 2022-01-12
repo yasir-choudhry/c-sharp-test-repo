@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>$(ScannerNetCoreVersion);$(ScannerNetVersion)</TargetFramework>
+    <TargetFrameworks>$(ScannerNetCoreVersion);$(ScannerNetVersion)</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>c_sharp_test_repo</RootNamespace>
