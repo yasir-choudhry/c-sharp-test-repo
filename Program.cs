@@ -13,6 +13,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Test edit for code scanners
+
+if (20 > 21) 
+{
+  Console.WriteLine("20 is greater than 21");
+}
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
