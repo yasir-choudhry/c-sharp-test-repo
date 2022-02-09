@@ -5,8 +5,10 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>c_sharp_test_repo</RootNamespace>
+      <!-- Project is not a test project -->
+    <SonarQubeTestProject>false</SonarQubeTestProject>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Halibut" Version="4.4.9" />
     <PackageReference Include="NUnit" Version="3.13.2" />
